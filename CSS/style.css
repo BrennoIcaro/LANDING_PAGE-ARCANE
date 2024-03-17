@@ -3,43 +3,90 @@
     padding: 0%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
+
 body{
 
     width: 100%;
     min-height: 100vh;
 }
 
-#container{
-
-    max-width: 1080px;
-    display: flex;
-}
-
 header{
 
-    background-color: black;
     width: 100%;
     height: 65px;
-    z-index: 1;
+    z-index: 2;
     position: sticky;
     top: 0;
-    border: 1px solid white;
 }
 
-#container .icons img{
-    
-    margin-left: 8%;
-    margin-top: 20%;
+ul{
+
+    background-color: black;
+    height: 80px;
 }
 
-#container nav a{
+li{
+
+    display: inline-block;
+    margin-left: 2.2%;
+}
+
+li a{
 
     color: white;
     text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    margin-top: 5.5%;
+}
+
+.login{
+
+    float: right;
+    margin-right: 3%;
+    margin-top: 1.0%;
+}
+
+.logo_A img{
+
+    width: 45px;
+    height: 35px;
+}
+
+.menu{
+
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+
+}
+
+.menu a{
+
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+.drop:hover .menu{
+    display: block;
+}
+
+li a, .dropicone{
     display: inline-block;
-    margin-top: 25px;
-    margin-left: 70px;
-    font-size: 17px;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+li a:hover, .drop .dropicone{
+    background-color: red;
+}
+
+li .drop{
+
+    display: inline-block;
 }
 
 section{
@@ -68,18 +115,56 @@ section .logo{
 
     width: 50%;
     position: relative;
-    z-index: 1;
     display: flex;
-    margin-left: 30%;
+    z-index: 1;
+    margin-left: 31.3%;
 }
 
 section .logo img{
 
     width: 75%;
     min-width: 300px;
-    margin-top: 40%;
 }
 
+section .texto{
 
+    width: 20%;
+    position: relative;
+    display: flex;
+    z-index: 1;
+    margin-left: 43.1%;
+}
 
+section .texto h2{
 
+    margin-top: 50%;
+    color: white;
+    font-size: 14pt;
+}
+
+section .botao{
+
+    margin-top: 2%;
+    margin-left: 44%;
+    z-index: 1;
+    position: relative;
+    display: flex;
+}
+
+section .botao a{
+
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 18pt;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;    
+}
+
+section .botao a:hover{
+
+    background-color: #d6810b;
+}
