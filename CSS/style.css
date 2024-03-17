@@ -11,6 +11,7 @@ body{
     min-height: 100vh;
 }
 
+/* Cabeçalho */
 header{
 
     width: 100%;
@@ -22,7 +23,9 @@ header{
 
 ul{
 
-    background-color: black;
+    background-image: linear-gradient(to left,
+   #468ebd,#301934
+    );
     height: 80px;
 }
 
@@ -56,8 +59,11 @@ li a{
 
 .menu{
 
+    background-image: linear-gradient(169deg,
+   #301934,#468ebd
+    );
     position: absolute;
-    box-shadow: 0 0 2px black;
+    box-shadow: 0 0 5px black;
     display: none;
 
 }
@@ -65,7 +71,7 @@ li a{
 .menu a{
 
     display: block;
-    color: black;
+    color: rgb(249, 245, 245);
     text-align: center;
 }
 
@@ -80,19 +86,17 @@ li a, .dropicone{
     text-align: center;
 }
 
-li a:hover, .drop .dropicone{
-    background-color: red;
-}
-
 li .drop{
 
     display: inline-block;
 }
 
+/*Sessão do video e d+ elementos*/
+
 section{
 
     width: 100%;
-    height: 100vh;
+    height: 91.7vh;
     position: relative;
 }
 
@@ -153,8 +157,11 @@ section .botao{
 
 section .botao a{
 
-    background-color: white;
-    color: black;
+    background-image: linear-gradient(to right,
+    #7B0D1E,
+    #7B0D1E
+     );
+    color:white;
     width: 200px;
     height: 50px;
     font-size: 18pt;
@@ -166,5 +173,68 @@ section .botao a{
 
 section .botao a:hover{
 
-    background-color: #d6810b;
+    background-image: linear-gradient(to right,
+    #301934,#468ebd
+     );
+}
+
+.menu-inferior{
+
+    background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 72px;
+    margin-top: 10%;
+    z-index: 1;
+    position: relative;
+    display: flex;
+}
+
+.botao-pause {
+
+    margin-top: 2%;
+    margin-left: 46.4%;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.botao-pause:hover {
+
+    color: #cd7f32;
+}
+
+section .menu-inferior img{
+
+    width: 130px;
+    height: 38px;
+    margin-left: 84%;
+    margin-top: 12%;
+}
+
+.menu-inferior h3{
+
+    width: 175px;
+    height: 5px;
+    color: white;
+    margin-left: -2.7%;
+    margin-top: -1%;
+}
+
+section .email{
+
+    margin-left: 55%;
+}
+
+section .email label{
+
+    color: azure;
+    font-size: 18px;
+}
+
+section .email input{
+
+    width: 372px;
+    height: 35px;
+    font-size: 19px;
 }

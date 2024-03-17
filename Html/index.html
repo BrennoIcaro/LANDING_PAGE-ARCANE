@@ -11,7 +11,7 @@
       <nav>
          <ul>
             <li class="drop">
-               <a href=""><img src="/Midias/logo_riot2.png" alt="logo da empresa Riot games"></a>
+               <a href=""><img src="/Midias/logo_riot.png" alt="logo da empresa Riot games"></a>
                <div class="menu">
                   <a href="#">League of Legends </a>
                   <a href="#">LOL: Wild Rift</a>
@@ -21,17 +21,18 @@
                </div>
             </li>
             <a class="logo_A" href="index.html"><img src="/Midias/logo_A.png" alt=""></a>
+              <li><a href="#sobre">SOBRE</a></li>
               <li><a href="#historia">HISTÓRIA</a></li>
               <li><a href="#peronagens">PERSONAGENS</a></li>
               <li><a href="#midia">MÍDIAS</a></li>
-              <li class="login"><a href="/Html/pageLogin.html">INICIAR SESSÃO</a></li>
+              <li class="login"><a href="/Html/pageLogin.html">LOGIN</a></li>
          </ul>
       </nav>
    </header>
 
    <section>
        <div class="background">
-           <video src="/Midias/Arcane_intro.mp4" autoplay loop muted></video>
+           <video id="arcaneBackg" src="/Midias/Arcane_intro.mp4" autoplay loop muted></video>
        </div>
           <div class="texto">
             <h2>RIOT GAMES APRESENTA</h2>
@@ -42,6 +43,19 @@
        <div class="botao">
           <a href="">Assista ao trailer</a>
        </div>
+
+       <section class="menu-inferior">
+         <a href="#" class="botao-pause" id="btn-pause">PAUSAR VIDEO</a>
+         <a href="https://www.netflix.com/br/title/81435684"><img src="/Midias/netflix.png" alt="logo da netflix"></a>
+         <h3>JÁ DISPONIVEL NA</h3>
+         <form class="email">
+            <label>Inscreva-se para receber novidades sobre ARCANE</label><br>
+            <input type="email" placeholder="Informe seu email">
+         </form>
+      </section>
+
    </section>
+
+   <script src="/JS/script.js"></script>
 </body>
 </html>
