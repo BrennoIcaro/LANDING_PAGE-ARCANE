@@ -1,32 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Grandiflora+One&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
 *{
     margin: 0%;
     padding: 0%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Tauri&display=swap');
-
 body{
-
+    
     width: 100%;
     min-height: 100vh;
 }
 
 /* Cabeçalho */
-header{
+header{ 
 
     width: 100%;
-    height: 65px;
+    height: 75px;
+    background-image: linear-gradient(to left, #468ebd,#301934);
     z-index: 2;
     position: sticky;
     top: 0;
-}
-
-ul{
-
-    background-image: linear-gradient(to left,
-   #468ebd,#301934
-    );
-    height: 80px;
 }
 
 li{
@@ -59,13 +52,10 @@ li a{
 
 .menu{
 
-    background-image: linear-gradient(169deg,
-   #301934,#468ebd
-    );
+    background-image: linear-gradient(169deg,#301934,#468ebd);
     position: absolute;
     box-shadow: 0 0 5px black;
     display: none;
-
 }
 
 .menu a{
@@ -86,15 +76,10 @@ li a, .dropicone{
     text-align: center;
 }
 
-li .drop{
-
-    display: inline-block;
-}
-
-/*Sessão do video e d+ elementos*/
+/*Seção do video e d+ elementos*/
 
 section{
-
+    
     width: 100%;
     height: 91.7vh;
     position: relative;
@@ -157,10 +142,7 @@ section .botao{
 
 section .botao a{
 
-    background-image: linear-gradient(to right,
-    #7B0D1E,
-    #7B0D1E
-     );
+    background-image: linear-gradient(to right, #7B0D1E, #7B0D1E);
     color:white;
     width: 200px;
     height: 50px;
@@ -173,9 +155,7 @@ section .botao a{
 
 section .botao a:hover{
 
-    background-image: linear-gradient(to right,
-    #301934,#468ebd
-     );
+    background-image: linear-gradient(to right, #cd7f32,#cd7f32);
 }
 
 .menu-inferior{
@@ -224,11 +204,7 @@ section .menu-inferior img{
 section .email{
 
     margin-left: 55%;
-}
-
-section .email label{
-
-    color: azure;
+    color: white;
     font-size: 18px;
 }
 
@@ -237,4 +213,62 @@ section .email input{
     width: 372px;
     height: 35px;
     font-size: 19px;
+}
+
+/* Seção dos tópicos */
+.espaco{
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5) 50%, rgba(9, 8, 8, 0.923));
+    width: 100%;
+    height: 72px;
+    margin-top: -1px;
+    z-index: 1;
+}
+
+.banner{
+
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+}
+
+.banner img{
+
+    width: 100%;
+    height: 100vh;
+    margin:0;
+}
+
+.container1{
+
+    max-width: 1080px;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.container1 h2{
+
+    height: 10%;
+    font-size: 80px;
+    font-family: "Grandiflora One", cursive;
+    color: white;
+    margin-top: 8%;
+    margin-left: 56%;
+}
+
+.container1 p{
+ 
+    width: 100%;
+    font-size: 25px;
+    font-family: "Roboto Flex", sans-serif;
+    color: rgb(252, 252, 251);
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+#historia .container1 h2{
+
+    width: 88%;
+    margin-left: 25.6%;
 }
