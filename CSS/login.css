@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Grandiflora+One&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+section{
+
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.background{
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.container{
+
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+h1{
+
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 6%;
+}
+
+form{
+
+    background-color: rgba(19, 139, 190, 0.788);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+}
+
+div{
+
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+label{
+        font-size: 18pt;
+        color: white;
+        padding-bottom: 100px;
+   
+}
+
+.campNome{
+
+        padding-right: 20px;
+        border-radius: 20px;
+        height: 26px;
+        text-align: center;
+}
+
+.campSenha{
+
+    padding-right: 20px;
+    border-radius: 20px;
+    height: 26px;
+    text-align: center;
+}
+
+.botao{
+    background-color: #7B0D1E;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    
+}
+.botao:hover{
+    background-color:#cd7f32;
+    cursor: pointer;
+}
