@@ -272,3 +272,15 @@ section .email input{
     width: 88%;
     margin-left: 25.6%;
 }
+
+#historia2 h2{
+
+    width: 995px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#historia2 p{
+
+    margin-top: 23%;
+}
