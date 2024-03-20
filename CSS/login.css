@@ -41,7 +41,7 @@ h1{
     text-align: center;
     color: white;
     font-size: 19pt;
-    margin-top: 2%;
+    margin-bottom: 5%;
 }
 
 form{
@@ -67,12 +67,13 @@ label{
         font-size: 17pt;
         color: white;
         padding-bottom: 100px;
+        margin-left: 6%;
    
 }
 
 .campNome{
 
-        padding-right: 20px;
+        padding-right: 30px;
         border-radius: 20px;
         height: 26px;
         text-align: center;
@@ -80,7 +81,7 @@ label{
 
 .campSenha{
 
-    padding-right: 20px;
+    padding-right: 30px;
     border-radius: 20px;
     height: 26px;
     text-align: center;
@@ -99,4 +100,19 @@ label{
 .botao:hover{
     background-color:#cd7f32;
     cursor: pointer;
+}
+
+a{
+
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -4%;
+    font-size: 15pt;
+}
+
+a:hover{
+    
+    transform: scale(0.9);
 }
