@@ -23,7 +23,7 @@
             <a class="logo_A" href="index.html"><img src="/Midias/logo_A.png" alt=""></a>
               <li><a href="#sobre">SOBRE</a></li>
               <li><a href="#historia">HISTÓRIA</a></li>
-              <li><a href="#midia">MÍDIAS</a></li>
+              <li><a href="#inscricao">ASSINE / MÍDIAS</a></li>
               <li class="login"><a href="/Html/pageLogin.html">LOGIN</a></li>
          </ul>
       </nav>
@@ -57,11 +57,11 @@
        <div class="espaco">
        </div>
        <section class="banner">
-          <img src="/Midias/back_Jinx&Vi.png" alt="">
+          <img src="/Midias/back-arcane2.jpg">
       </section>
       <div class="container1">
          <h2>SOBRE</h2>
-         <p>
+         <p style="background-image: linear-gradient(169deg,#30193498,#468dbdbb); padding: 2%;">
             <strong>Arcane</strong> é uma série animada de televisão da Netflix baseada 
             no popular jogo multiplayer "League of Legends", 
             desenvolvido pela Riot Games. A série serve como um prequel
@@ -79,13 +79,11 @@
    </section>
 
    <section id="historia">
-      <div class="espaco">
-      </div>
       <section class="banner">
          <img src="/Midias/back_ponte.png" alt="ponte de Piltover">
       </section>
       <div class="container1">
-          <h2>UM LAR FRAGMENTADO</h2>
+          <h2 style="padding-top: 8.2%;">UM LAR FRAGMENTADO</h2>
           <p>
              Duas irmãs. Duas cidades. Uma descoberta que mudará o mundo para sempre.
              Nas cidades de Piltover e Zaun, a tensão aumenta à medida que inventores, 
@@ -96,38 +94,61 @@
              Ou será que o levará à ruína? Esse é o mundo de Arcane.
           </p>
 
-          <h2 style="font-size: 22pt; margin-top: 11%; margin-left: 37.5%; color: 
+          <h2 style="font-size: 22pt; margin-top: 9%; margin-left: 37.5%; color: 
           rgb(248, 237, 237);">ROLE PARA BAIXO E CONHEÇA ZAUN E PILTOVER</h2>
           <img class="ornamento" src="/Midias/ornamento1.png">
       </div>
    </section>
 
-   <section>
-      <section class="banner">
-         <img src="/Midias/back_piltov2.png" alt="cidade de Piltover">
-      </section>
-      <div class="container1">
-          <h2 style="width: 100%; margin-left: 22%;">A CIDADE DO PROGRESSO</h2>
-          <h4 style="color: white; font-size: 30pt; width: 138px; margin-left: 60%; margin-top: 9%;">Piltover</h4>
-          <p style="margin-top: 4%;">
-             Localizada no coração do continente, Piltover está a um passo do progresso. 
-             A invenção da tecnologia hextec promete um futuro glorioso, e dois cientistas 
-             brilhantes estão encarregados dessa missão. Mas tanto potencial não vem de graça. 
-             Fracassar pode ser devastador, especialmente porque políticos mal fazem ideia do 
-             poder que cobiçam. Enquanto a tensão aumenta na Subferia e a revolta está próxima, 
-             o povo de Piltover precisa proteger seu futuro... a qualquer custo.
-          </p>
-         </div>
+   <section class="lores">
+         <section class="banner" style="margin-top: -4.7%;">
+            <img src="/Midias/back_piltov2.png" alt="cidade de Piltover">
+         </section>
+         <div class="container1">
+             <h2 style="margin-top: -2%;">A CIDADE DO PROGRESSO</h2>
+             <div class="container-slider">
+               <button id="prev-button"><img src="/Midias/arrow.png"></button>
+               <div class="container-images">
+                 <img src="/Midias/back_piltov.png" alt="" class="slider on">
+                 <img src="/Midias/piltover_city.jpg" alt="" class="slider">
+                 <img src="/Midias/back_piltov3.png" alt="" class="slider">
+                 <img src="/Midias/back_ponte.png" class="slider">
+               </div>
+               <button id="next-button"><img src="/Midias/arrow.png"></button>
+             </div>
+
+             <h4 style="margin-top: -20%; font-size: 43pt; margin-left: 6%; color: #7B0D1E;">Piltover</h4>
+             <img style="width: 350px; transform: rotate(180deg); margin-left: -1.5%; margin-top: -7%;" src="/Midias/ornamento1.png" alt="">
+             <p style="margin-top: -3%; font-size: 25px; width: 50%;  margin-left: 2%;">
+                Localizada no coração do continente, Piltover está a um passo do progresso. 
+                A invenção da tecnologia hextec promete um futuro glorioso, e dois cientistas 
+                brilhantes estão encarregados dessa missão. Mas tanto potencial não vem de graça. 
+                Fracassar pode ser devastador, especialmente porque políticos mal fazem ideia do 
+                poder que cobiçam. Enquanto a tensão aumenta na Subferia e a revolta está próxima, 
+                o povo de Piltover precisa proteger seu futuro... a qualquer custo.
+             </p>
+            </div>
    </section>
 
-   <section id="historia3">
+   <section class="lores">
       <section class="banner">
-         <img style="margin-top: -1.5%;" src="/Midias/back_zaun.png" alt="cidade de Zaun">
+         <img src="/Midias/back_zaun.png" alt="cidade de Zaun" style="margin-top: -3.7%;">
       </section>
       <div class="container1">
-          <h2 style="margin-left: 50%;">A SUBFERIA</h2>
-          <h4 style="font-size: 30pt; margin-left: 67%; margin-top: 9%;">Zaun</h4>
-          <p style="margin-top: 4%;">
+          <h2 style="margin-left: 48.5%; width: 470px; margin-top: 0.9%;">A SUBFERIA</h2>
+          <div class="container-slider">
+            <button id="prev"><img src="/Midias/arrow.png"></button>
+            <div class="container-images">
+              <img src="/Midias/back_zaun2.jpg" alt="" class="slide on">
+              <img src="/Midias/back_zaun.png" alt="" class="slide">
+              <img src="/Midias/back_vi&ekko.png" alt="" class="slide">
+            </div>
+            <button id="next"><img src="/Midias/arrow.png"></button>
+          </div>
+
+          <h4 style="margin-top: -20%; font-size: 43pt; margin-left: 6%; color: #fdf8f9;">Zaun</h4>
+          <img style="width: 230px; transform: rotate(180deg); margin-left: 1%; margin-top: -5%;" src="/Midias/ornamento1.png" alt="">
+          <p style="margin-top: -1%; font-size: 25px; width: 50%; margin-left: 2%;">
             À margem do progresso, muito abaixo das torres de marfim de Piltover, 
             há a Subferia. O ar é poluído e pesado; cada beco prever perigo, desejo... 
             ou ambos. Contudo, o coração desta cidade-irmã vibra com esperança, talento 
@@ -136,9 +157,56 @@
             de se identificar com o Ladoalto. Em vez disso, olham para cima com uma determinação 
             que nunca sentiram antes e sonham com algo maior.
           </p>
-         </div>
+      </div>
    </section>
 
+   <section id="inscricao">
+      <section class="banner">
+         <img src="/Midias/back_zaun2.jpg">
+      </section>
+      <div class="container1">
+         <h2 style="padding-top: 10%; width: 100%; margin-left: 23%;">ASSINE, ASSISTA, ESCUTE</h2>
+        
+        
+      <div style="background-image: linear-gradient(169deg,#30193498,#468dbdbb); padding: 2%; width: 30%; height: 40%; margin-top: 8%; margin-left: 5%; border-radius: 3%;">
+         <h3 style="color: white; font-size: 18px;">Entre para o universo de ARCANE e se divirta jogando com os 
+            personagens da serie, Experimentando batalhas emocionantes, jogabilidade estratégica e uma comunidade vibrante de jogadores.
+         </h3>
+         <h3 style="color: white; margin-top: 10%;">
+            Cadastre-se agora e junte-se à aventura!
+         </h3>
+         <div class="botao-assinar" style="margin-top: 15%; margin-left: 15%;">
+            <a href="pageCadastro.html">Cadastre-se</a>
+         </div>
+      </div>
+
+      <div style="margin-left: 50%; background-image: linear-gradient(169deg,#30193498,#468dbdbb); padding: 2%; width: 25%; border-radius: 3%; margin-top: -30%;">
+         <h3 style="color: white; margin-left: 10%; font-size: 18px;">Assine agora NETFLIX e mergulhe no deslumbrante e caótico mundo de ARCANE</h3>
+         <div class="botao-assinar" style="margin-top: 8%; margin-left: 13%;">
+            <a href="https://www.netflix.com/signup?locale=pt-BR">ASSINAR</a>
+         </div>
+      </div>
+
+      <h3 style="color: white; margin-top: 19%; margin-left: 5%;">JÁ DISPONIVEL NA</h3>
+      <a href="https://www.netflix.com/br/title/81435684"><img src="/Midias/netflix.png" style="width: 200px; margin-left: 4%; margin-top: 1%;"></a>
+      
+      <div style="background-image: linear-gradient(169deg,#301934a2,#468dbd9a); padding: 2%; width: 34%; margin-left: 45%; margin-top: -22%; border-radius: 3%;">
+         <h3 style="color: white;">Escute o álbum de ARCANE nas plataformas digitais e siga-nos nas Redes socias </h3>
+         <div class="redes" style="margin-top: 5%;">
+            <a href="https://lnk.to/ArcaneLeagueofLegends"><img src="/Midias/sportfy.png"></a>
+            <a href="https://twitter.com/arcaneshow"><img src="/Midias/insta.png"></a>
+            <a href="https://www.instagram.com/arcaneshow/"><img src="/Midias/twitter.png"></a>
+         </div>
+      </div>   
+
+      <h3 style="color: white; width: 50%; margin-left: 88%; margin-top: -38%;">ASSISTA AGORA O 1° TEASER DA SEGUNDA TEMPORADA, DISPONIVEL EM NOVEMBRO</h3>
+      <iframe width="560" height="315" style="margin-left: 87%; margin-top: 3%;" src="https://www.youtube.com/embed/W4Rheucgtow?si=3I1RVFxuE8WNuSxL"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+          encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+   
+   </div>
+   </section>
 
    <script src="/JS/script.js"></script>
 </body>

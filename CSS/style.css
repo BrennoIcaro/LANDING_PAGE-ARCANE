@@ -256,7 +256,7 @@ section .email input{
     height: 10%;
     font-size: 80px;
     font-family: "Grandiflora One", cursive;
-    color: white;
+    color: #7B0D1E ;
     margin-top: 8%;
     margin-left: 56%;
 }
@@ -264,9 +264,9 @@ section .email input{
 .container1 p{
  
     width: 100%;
-    font-size: 25px;
+    font-size: 26px;
     font-family: "Roboto Flex", sans-serif;
-    color: rgb(252, 252, 251);
+    color: rgb(249, 246, 246);
     margin-top: 10%;
     margin-left: 20%;
 }
@@ -276,13 +276,113 @@ section .email input{
 
     width: 88%;
     margin-left: 25.6%;
+    padding-top: 5%;
 }
 
 .ornamento{
 
    width: 100%;
    height: 290px;
-   margin-top: -13%;
+   margin-top: -14%;
    margin-left: 20%;
    transform: rotate(180deg);
 }
+
+.lores{
+
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 8.9%;
+}
+
+.lores h2{
+    margin-top: 7%;
+    width: 100%;
+    margin-left: 25%;
+    color: #7B0D1E ;
+}
+
+#inscricao .botao-assinar{
+
+    margin-top: 6%;
+    margin-left: 10%;
+    z-index: 1;
+    position: relative;
+    display: flex;
+}
+
+#inscricao .botao-assinar a{
+
+    background-color:  #7B0D1E;
+    color:white;
+    width: 200px;
+    height: 50px;
+    font-size: 18pt;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none; 
+}
+
+#inscricao .botao-assinar a:hover{
+
+    background-color: #cd7f32;
+    transform: scale(0.9);
+}
+
+.redes img{
+
+    width: 50px;
+    margin-left: 14%;
+}
+
+
+/*Carrossel de fotos*/
+
+.container-slider {
+    display: flex;
+    width: 50%;
+    min-height: 30%;
+    margin-top: 20%;
+    margin-left: 80%;
+    gap: 1rem;
+  }
+  
+  .container-images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 950px;
+  }
+  
+  .slider, .slide {
+    opacity: 0;
+    transition: opacity .2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .on {
+    opacity: 1;
+  }
+  
+  #prev-button, #next-button, #prev, #next {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  #prev-button img, #next-button img, #prev img, #next img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button, #prev{
+    transform: rotate(180deg);
+  }
