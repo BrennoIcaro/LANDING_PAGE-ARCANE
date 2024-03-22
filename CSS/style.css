@@ -70,14 +70,21 @@ li a{
 }
 
 .drop:hover .menu{
+
     display: block;
 }
 
 li a, .dropicone{
+
     display: inline-block;
     padding: 14px 16px;
     text-decoration: none;
     text-align: center;
+}
+
+li a:hover{
+
+    background: #cd7f32;
 }
 
 /*Seção do video e d+ elementos*/
@@ -160,6 +167,7 @@ section .botao a{
 section .botao a:hover{
 
     background-image: linear-gradient(to right, #cd7f32,#cd7f32);
+    transform: scale(0.9);
 }
 
 .menu-inferior{

@@ -75,3 +75,37 @@ function prevSlider() {
 
 btnNext.addEventListener('click', nextSlider)
 btnPrev.addEventListener('click', prevSlider)
+
+/* Tela Cadastro */
+
+
+function fazer_cadastro(){
+
+
+  var email = formCadastro.email;
+  var senha = formCadastro.senha;
+  var nick = formCadastro.Nickname;
+  var senhaC = formCadastro.senhaC;
+  
+  if(email.value == ""){
+
+     alert("Email não preenchido");
+     email.focus();
+     
+     } else if(nick.value == "") {
+
+        alert("Nickname não informado");
+        nick.focus();
+
+     } else if(senha.value == "") {
+
+         alert("Campo senha não preenchido");
+         senha.focus();
+
+     } else if(senhaC.value == "") {
+
+           alert("Confirmação da senha não foi preenchido");
+           senhaC.focus();
+
+     } 
+};
