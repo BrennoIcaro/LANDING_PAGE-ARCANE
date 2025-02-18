@@ -125,7 +125,12 @@ a:hover{
     border-radius: 20px;
     height: 26px;
     width: 330px;
-    text-align: center;
+    margin-left: 10%;
+}
+
+.formCadastro label{
+
+    margin-left: 12%;
 }
 
 .formCadastro{
